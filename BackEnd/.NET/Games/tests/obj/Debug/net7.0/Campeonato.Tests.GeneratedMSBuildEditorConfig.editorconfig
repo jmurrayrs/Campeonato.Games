@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Campeonato.Tests
-build_property.ProjectDir = /home/jmurray/Documentos/JulienNascimento-20230825/tests/
+build_property.ProjectDir = /home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/tests/

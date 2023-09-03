@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jmurray/Documentos/JulienNascimento-20230825/tests/Campeonato.Tests.csproj": {}
+    "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/tests/Campeonato.Tests.csproj": {}
   },
   "projects": {
-    "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/Campeonato.API.csproj": {
+    "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/Campeonato.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/Campeonato.API.csproj",
+        "projectUniqueName": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/Campeonato.API.csproj",
         "projectName": "Campeonato.API",
-        "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/Campeonato.API.csproj",
+        "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/Campeonato.API.csproj",
         "packagesPath": "/home/jmurray/.nuget/packages/",
-        "outputPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/obj/",
+        "outputPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jmurray/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj": {
-                "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj"
+              "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj": {
+                "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj": {
+    "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj",
+        "projectUniqueName": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj",
         "projectName": "Campeonato.Application",
-        "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj",
+        "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj",
         "packagesPath": "/home/jmurray/.nuget/packages/",
-        "outputPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/obj/",
+        "outputPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jmurray/.nuget/NuGet/NuGet.Config"
@@ -118,8 +118,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj": {
-                "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj"
+              "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/Campeonato.Domain.csproj": {
+                "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/Campeonato.Domain.csproj"
               }
             }
           }
@@ -175,14 +175,14 @@
         }
       }
     },
-    "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj": {
+    "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/Campeonato.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj",
+        "projectUniqueName": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/Campeonato.Domain.csproj",
         "projectName": "Campeonato.Domain",
-        "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj",
+        "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/Campeonato.Domain.csproj",
         "packagesPath": "/home/jmurray/.nuget/packages/",
-        "outputPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/",
+        "outputPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jmurray/.nuget/NuGet/NuGet.Config"
@@ -239,14 +239,14 @@
         }
       }
     },
-    "/home/jmurray/Documentos/JulienNascimento-20230825/tests/Campeonato.Tests.csproj": {
+    "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/tests/Campeonato.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jmurray/Documentos/JulienNascimento-20230825/tests/Campeonato.Tests.csproj",
+        "projectUniqueName": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/tests/Campeonato.Tests.csproj",
         "projectName": "Campeonato.Tests",
-        "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/tests/Campeonato.Tests.csproj",
+        "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/tests/Campeonato.Tests.csproj",
         "packagesPath": "/home/jmurray/.nuget/packages/",
-        "outputPath": "/home/jmurray/Documentos/JulienNascimento-20230825/tests/obj/",
+        "outputPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jmurray/.nuget/NuGet/NuGet.Config"
@@ -262,14 +262,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/Campeonato.API.csproj": {
-                "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/Campeonato.API.csproj"
+              "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/Campeonato.API.csproj": {
+                "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/Campeonato.API.csproj"
               },
-              "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj": {
-                "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj"
+              "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj": {
+                "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj"
               },
-              "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj": {
-                "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj"
+              "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/Campeonato.Domain.csproj": {
+                "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Domain/Campeonato.Domain.csproj"
               }
             }
           }

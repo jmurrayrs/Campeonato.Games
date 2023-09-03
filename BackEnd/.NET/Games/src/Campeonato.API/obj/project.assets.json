@@ -1015,11 +1015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/Campeonato.API.csproj",
+      "projectUniqueName": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/Campeonato.API.csproj",
       "projectName": "Campeonato.API",
-      "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/Campeonato.API.csproj",
+      "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/Campeonato.API.csproj",
       "packagesPath": "/home/jmurray/.nuget/packages/",
-      "outputPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.API/obj/",
+      "outputPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jmurray/.nuget/NuGet/NuGet.Config"
@@ -1035,8 +1035,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj": {
-              "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Application/Campeonato.Application.csproj"
+            "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj": {
+              "projectPath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/src/Campeonato.Application/Campeonato.Application.csproj"
             }
           }
         }

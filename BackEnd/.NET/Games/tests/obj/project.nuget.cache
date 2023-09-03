@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MiiMM3IpfJo8f6ZosKGUhxAdKyGhxgZ0ulVsuaNQk0j2IWmMWFouQO+5KH6EqEqF+KZd2v9sriDL1Tb+/FDi4w==",
+  "dgSpecHash": "QXkVWpPAtCAIeoW6lNidxuPjFZAuwTQaVmJaxFstZk5fA3JsuwMufe0E8quhM28o4ETdZHpUHgqhb04uK4nzog==",
   "success": true,
-  "projectFilePath": "/home/jmurray/Documentos/JulienNascimento-20230825/tests/Campeonato.Tests.csproj",
+  "projectFilePath": "/home/jmurray/Documentos/Desafios/BackEnd/.NET/Games/tests/Campeonato.Tests.csproj",
   "expectedPackageFiles": [
     "/home/jmurray/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/jmurray/.nuget/packages/automapper.extensions.enummapping/3.1.0/automapper.extensions.enummapping.3.1.0.nupkg.sha512",
