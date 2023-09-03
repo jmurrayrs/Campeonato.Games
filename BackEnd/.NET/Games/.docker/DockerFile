@@ -1,0 +1,23 @@
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+# Imagem para compilar o projeto .NET
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["src/Campeonato.API/Campeonato.API.csproj", "Campeonato.API/"]
+RUN dotnet restore "Campeonato.API/Campeonato.API.csproj"
+COPY . .
+WORKDIR "/src/Campeonato.API"
+RUN dotnet build "Campeonato.API.csproj" -c Release -o /app/build
+
+# Imagem para publicar o projeto .NET
+FROM build AS publish
+RUN dotnet publish "Campeonato.API.csproj" -c Release -o /app/publish
+
+# Imagem final com o .NET
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "Campeonato.API.dll"]

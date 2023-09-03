@@ -1,0 +1,12 @@
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/bin/Debug/net7.0/Campeonato.Domain.deps.json
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/bin/Debug/net7.0/Campeonato.Domain.dll
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/bin/Debug/net7.0/Campeonato.Domain.pdb
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/Campeonato.Domain.csproj.AssemblyReference.cache
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/Campeonato.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/Campeonato.Domain.AssemblyInfoInputs.cache
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/Campeonato.Domain.AssemblyInfo.cs
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/Campeonato.Domain.csproj.CoreCompileInputs.cache
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/Campeonato.Domain.dll
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/refint/Campeonato.Domain.dll
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/Campeonato.Domain.pdb
+/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/Debug/net7.0/ref/Campeonato.Domain.dll

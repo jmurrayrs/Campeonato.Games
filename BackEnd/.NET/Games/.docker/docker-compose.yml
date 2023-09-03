@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  campeonato-app:
+    image: mcr.microsoft.com/dotnet/aspnet:7.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

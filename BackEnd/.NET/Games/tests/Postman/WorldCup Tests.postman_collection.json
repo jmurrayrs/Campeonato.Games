@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "44893362-7872-4188-9dae-4d6bf1031260",
+		"name": "WorldCup Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4437796"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7177/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"games\": [\n   {\n    \"id\": \"/nintendo-64/the-legend-of-zelda-ocarina-of-time\",\n    \"title\": \"The Legend of Zelda: Ocarina of Time (N64)\",\n    \"score\": 99.9,\n    \"year\": 1998,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/nintendo-64/the-legend-of-zelda-ocarina-of-time\"\n  },\n  {\n    \"id\": \"/playstation/tony-hawks-pro-skater-2\",\n    \"title\": \"Tony Hawk's Pro Skater 2 (PS)\",\n    \"score\": 98.9,\n    \"year\": 2000,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/playstation/tony-hawks-pro-skater-2\"\n  },\n  {\n    \"id\": \"/playstation-3/grand-theft-auto-iv\",\n    \"title\": \"Grand Theft Auto IV (PS3)\",\n    \"score\": 98.9,\n    \"year\": 2008,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/playstation-3/grand-theft-auto-iv\"\n  },\n  {\n    \"id\": \"/dreamcast/soulcalibur\",\n    \"title\": \"SoulCalibur (DC)\",\n    \"score\": 98.9,\n    \"year\": 1999,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/dreamcast/soulcalibur\"\n  },\n  {\n    \"id\": \"/xbox-360/grand-theft-auto-iv\",\n    \"title\": \"Grand Theft Auto IV (X360)\",\n    \"score\": 98.9,\n    \"year\": 2008,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/xbox-360/grand-theft-auto-iv\"\n  },\n  {\n    \"id\": \"/wii/super-mario-galaxy\",\n    \"title\": \"Super Mario Galaxy (WII)\",\n    \"score\": 97.9,\n    \"year\": 2007,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/wii/super-mario-galaxy\"\n  },\n  {\n    \"id\": \"/wii/super-mario-galaxy-2\",\n    \"title\": \"Super Mario Galaxy 2 (WII)\",\n    \"score\": 97.9,\n    \"year\": 2010,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/wii/super-mario-galaxy-2\"\n  },\n  {\n    \"id\": \"/xbox-one/red-dead-redemption-2\",\n    \"title\": \"Red Dead Redemption 2 (XONE)\",\n    \"score\": 97.9,\n    \"year\": 2018,\n    \"urlImage\": \"https://l3-processoseletivo.azurewebsites.net/api/CapaJogo/xbox-one/red-dead-redemption-2\"\n  }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7177/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7177",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

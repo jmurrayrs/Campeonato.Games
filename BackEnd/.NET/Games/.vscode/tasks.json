@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Campeonato.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/Campeonato.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/Campeonato.sln"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "command":        "dotnet clean",
+            "label":          "clean",
+            "problemMatcher": "$msCompile",
+            "type":           "shell"
+        },
+        {
+            "command":        "dotnet test",
+            "label":          "test",
+            "problemMatcher": "$msCompile",
+            "type":           "shell"
+        },
+        {
+            "command":        "dotnet restore",
+            "label":          "restore",
+            "problemMatcher": "$msCompile",
+            "type":           "shell"
+        },
+        {
+            "command":        "docker-compose -f ${workspaceFolder}/.docker/docker-compose.yml up -d",
+            "label":          "Compose up",
+            "type":           "shell",
+            "problemMatcher": []
+        },
+    ]
+}

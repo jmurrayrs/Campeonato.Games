@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "FluentValidation/11.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HaidaiTech.Notificator/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Notificator.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Notificator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentValidation/11.7.1": {
+      "sha512": "w9Al4gls6iVGFbTd/NPOPlwzqDTghH+ntL4c4FYUatc+LeybpIwhYArLykZJP/VjF2n3ihj3ws+1yd7KR5lQlg==",
+      "type": "package",
+      "path": "fluentvalidation/11.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.7.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "HaidaiTech.Notificator/1.2.1": {
+      "sha512": "uBpFuA9W8NnlXhmfMiMw5cFWuXwSlnpShxxpJUZDlLyAz3c1dDaeBtm8oIBQiyTIuqsbD7saC+8pdCWQB33PUA==",
+      "type": "package",
+      "path": "haidaitech.notificator/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "haidaitech.notificator.1.2.1.nupkg.sha512",
+        "haidaitech.notificator.nuspec",
+        "icon.png",
+        "lib/net6.0/Notificator.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "FluentValidation >= 11.7.1",
+      "HaidaiTech.Notificator >= 1.2.1"
+    ]
+  },
+  "packageFolders": {
+    "/home/jmurray/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj",
+      "projectName": "Campeonato.Domain",
+      "projectPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/Campeonato.Domain.csproj",
+      "packagesPath": "/home/jmurray/.nuget/packages/",
+      "outputPath": "/home/jmurray/Documentos/JulienNascimento-20230825/src/Campeonato.Domain/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/jmurray/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Haidai-Tech/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.7.1, )"
+          },
+          "HaidaiTech.Notificator": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
